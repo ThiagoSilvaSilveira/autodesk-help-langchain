@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "autodesk-help-langchain"
+version = "0.1.0"
+description = ""
+authors = ["Thiago Silveira <tsilvasilveira@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9.0,<3.12"
+langchain = "^0.1.14"
+langchain-community = "^0.0.31"
+langchainhub = "^0.1.15"
+langchain-openai = "^0.1.1"
+chromadb = "^0.4.24"
+bs4 = "^0.0.2"
+selenium = "^4.19.0"
+unstructured = "^0.13.2"
+python-telegram-bot = "^21.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.3.0"
+isort = "^5.13.2"
+autoflake = "^2.3.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
